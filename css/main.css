@@ -3,22 +3,22 @@ html {
   background-color: #ecf0f1;
 }
 h1 {
-  font-size: 7vw;
+  font-size: 7rem;
   font-weight:  normal;
   font-variant: small-caps;
   text-align: center;
   line-height: 25vh;
   letter-spacing: 0.4rem;
-  text-shadow: 2px 2px 4px grey;
+  text-shadow: 1px 1px 0 white;
 }
 h2 {
-  font-size:  3rem;
+  font-size:  3.5rem;
   line-height: 3.5rem;
   font-weight:  bolder;
   font-variant: normal;
   text-align: left;
-  color:  #3498db;
-  text-shadow:  1px 1px 1px gold, -1px -1px 1px gold, 1px -1px 1px gold, -1px 1px 1px gold;
+  color:  black;
+  /* text-shadow:  1px 1px 0 red, -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red; */
 }
 .hband {
   height: 25vh;
@@ -36,13 +36,24 @@ background-color: #c0392b
 background-color: #2c3e50;
 }
 a {
-  display: block;
   font-size: 1.4rem;
   line-height: 2.2rem;
-  color:  dodgerblue;
+  color:  black;
   text-decoration: none;
 }
 main {
-  padding: 0, 0, 0, 1rem;
-  margin:  0, 0, 0, 1rem;
+  padding: 1rem;
+  margin:  1rem;
+}
+nav {
+  text-align: center;
+}
+li {
+  list-style: disc;
+  text-indent: 1.5rem;
+}
+section {
+  border:  1px dashed black;
+  max-width: 25vw;
+  margin:  2rem;
 }
