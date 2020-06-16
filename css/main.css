@@ -48,6 +48,15 @@ main {
 nav {
   text-align: center;
 }
+#testing {
+  background-color: #b2b2b2;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url("../images/mansfield_300.jpg");
+  background-repeat: no-repeat;
+  background-position: 100, 100;
+  height: 250px;
+  color: red;
+}
 li {
   list-style: disc;
   text-indent: 1.5rem;
