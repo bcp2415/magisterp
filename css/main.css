@@ -57,3 +57,19 @@ li > h2 {
 figcaption {
   text-align: center;
 }
+#test {
+  height: 500px;
+  width: 500px;
+  background-color: red;
+}
+#LLmain {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.LLsection {
+  padding:  10px;
+  border:  5px #c0392b outset;
+  margin: 20px;
+}
