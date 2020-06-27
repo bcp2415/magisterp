@@ -39,6 +39,7 @@ a:hover {
 li > h2 {
   font-size: 1.8rem;
   font-style: normal;
+  font-weight: bolder;
 }
 #homeMain > .homeItems {
   padding:  10px;
@@ -52,4 +53,7 @@ li > h2 {
 }
 #homePhoto {
   padding: 0px;
+}
+figcaption {
+  text-align: center;
 }
