@@ -64,6 +64,13 @@ figcaption {
   margin: 0px;
   background-color: rgb(237, 232, 187);
 }
+footer {
+  text-align: center;
+  padding:  15px;
+}
+.noItems {
+  display: none;
+}
 #test {
   height: 500px;
   width: 500px;
