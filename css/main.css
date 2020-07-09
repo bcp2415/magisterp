@@ -43,7 +43,7 @@ li > h2 {
 }
 #homeMain > .homeItems {
   padding:  10px;
-  border:  5px #c0392b outset;
+  border:  7px #c0392b groove;
   margin: 20px;
 }
 #homeMain > section > ul > li {
@@ -51,11 +51,18 @@ li > h2 {
   font-size: 1.2rem;
   font-style: italic;
 }
-#homePhoto {
-  padding: 0px;
+#homeMain > #homePhoto {
+  padding: 0px 0px 8px 0px;
+  background-color: rgb(237, 232, 187);
+
 }
 figcaption {
   text-align: center;
+  font-style:  italic;
+  font-weight:  bolder;
+  padding: 8px;
+  margin: 0px;
+  background-color: rgb(237, 232, 187);
 }
 #test {
   height: 500px;
