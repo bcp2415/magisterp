@@ -95,3 +95,50 @@ footer {
   text-align: center;
   font-weight: bolder;
 }
+/* magister princeps page */
+.magisterp-title-bar > h1 {
+  font-size: 7vh;
+  text-align: center;
+  margin:  15px 0px 5px 0px;
+}
+.magisterp-title-bar > h2 {
+  font-size: 4vh;
+  text-align: center;
+  margin: 0px 0px 5px 0px;
+}
+.magisterp-title-bar > h3 {
+  font-size: 3vh;
+  text-align: center;
+}
+#flex-wrapper {
+  display: flex;
+  flex-flow:  row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.list-wrapper {
+  display: flex;
+  flex-flow:  column;
+  justify-content: space-space-around;
+  align-items: center;
+  /* height:  1100px; */
+  margin: 15px 0px;
+}
+.list-wrapper > li {
+  padding:  12px;
+}
+.img-container {
+  position: relative;
+  color:  white;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+.img-container > a:hover + div {
+  visibility: visible;
+}
