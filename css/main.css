@@ -129,16 +129,22 @@ footer {
 }
 .img-container {
   position: relative;
-  color:  white;
+  color:  rgba(255, 255, 255, 0.5);
   text-align: center;
 }
 .centered {
   position: absolute;
+  visibility: hidden;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  visibility: hidden;
+  font-size: 6vh;
+  font-weight: 700;
+  text-shadow: rgba(75, 111, 190, 0.5) 3px 3px, rgba(75, 111, 190, 0.5) 3px -3px, rgba(75, 111, 190, 0.5) -3px -3px, rgba(75, 111, 190, 0.5) -3px 3px;
 }
-.img-container > a:hover + div {
+.img-container:hover > a + p {
   visibility: visible;
+}
+.weightier {
+  font-weight:  600;
 }
