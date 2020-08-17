@@ -1,3 +1,6 @@
+/* ------------------------- */
+/* ---General--------------- */
+/* ------------------------- */
 html {
   font-family: 'Karla', sans-serif;
   background-image: radial-gradient(rgba(44, 91, 110, 0.27), rgba(92, 196, 200, 0.81));
@@ -30,8 +33,13 @@ a:link {
 a:hover {
   text-decoration: underline;
 }
+/* ------------------------- */
+/* ---home page------------- */
+/* ------------------------- */
+
 #homeMain {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-start;
   margin:  35px auto;
@@ -41,7 +49,13 @@ li > h2 {
   font-style: normal;
   font-weight: bolder;
 }
-#homeMain > .homeItems {
+.center {
+  text-align: center;
+}
+#welcome{
+  width:  650px;
+}
+.homeItems {
   padding:  10px;
   border:  7px #c0392b groove;
   margin: 20px;
@@ -51,10 +65,17 @@ li > h2 {
   font-size: 1.2rem;
   font-style: italic;
 }
-#homeMain > #homePhoto {
+#noItalic  {
+ font-style: normal;
+ font-size: 1.2rem;
+}
+#noItalic > li {
+  padding: 7px 0px;
+}
+#homePhoto {
+  float:  left;
   padding: 0px 0px 8px 0px;
   background-color: rgb(237, 232, 187);
-
 }
 figcaption {
   text-align: center;
@@ -95,7 +116,9 @@ footer {
   text-align: center;
   font-weight: bolder;
 }
+/* ---------------------- */
 /* magister princeps page */
+/* ---------------------- */
 .magisterp-title-bar > h1 {
   font-size: 7vh;
   text-align: center;
@@ -148,3 +171,6 @@ footer {
 .weightier {
   font-weight:  600;
 }
+/* ------------------------- */
+/* --End magisterp page----- */
+/* ------------------------- */
